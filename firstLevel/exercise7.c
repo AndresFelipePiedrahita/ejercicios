@@ -20,7 +20,8 @@ int isPrime(int num) {
     return 1; // Es primo si no encuentra divisores
 }
 
-int main() {
+int main(){
+	printf("Welcome to the program that determines if a number of two digits is prime and if it is negative\n");
     setlocale(LC_ALL, "en_US.UTF-8");
     int number;
 
@@ -41,7 +42,7 @@ int main() {
         if (isPrime(absNumber)) {
             printf("The number %d is a prime.\n", number);
         } else {
-            printf("The number %d is nott a prime.\n", number);
+            printf("The number %d is not a prime.\n", number);
         }
     } else {
         printf("The number does not have two digits.\n");

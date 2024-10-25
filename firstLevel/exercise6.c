@@ -21,7 +21,8 @@ int isPrime(int num) {
 }
 
 
-int main() {
+int main(){
+	printf("Welcome to the program that determines if a number of two digits less to 20 is prime\n");
     setlocale(LC_ALL, "en_US.UTF-8");
     int number;
 

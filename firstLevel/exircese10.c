@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <math.h>  // Include math.h for sqrt function
 
-int main() {
+int main(){
+    printf("Welcome to the program that determines if two digits are equal\n");
     int number, first, second;
     printf("Enter a two-digit integer: ");
     scanf("%d", &number);

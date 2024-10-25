@@ -18,7 +18,8 @@ int isPrime(int num) {
     return 1; // Prime if no divisors found
 }
 
-int main() {
+int main(){
+	printf("Welcome to the program that determines if both digits of a number of two digits are prime\n");
     int number, first, second;
     printf("Enter a two-digit integer: ");
     scanf("%d", &number);

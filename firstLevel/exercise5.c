@@ -1,7 +1,8 @@
 //5. Leer un número entero de dos dígitos y determinar si ambos dígitos son pares.
 #include <stdio.h>
 
-int main() {
+int main(){
+	printf("Welcome to the program that determines if both digits of a number of two digits are even\n");
 	int numberUser, firstNumber, secondNumber;
 	printf("Enter a number of two digits: ");
 	scanf("%d", &numberUser);

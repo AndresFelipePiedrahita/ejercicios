@@ -1,8 +1,8 @@
 //2. Leer un número entero y determinar si tiene 3 dígitos.
 #include <stdio.h>
 
-int main()
-{
+int main(){
+    printf("Welcome to the program that determines if a number has 3 digits\n");
     int numberUser;
     printf("Enter a number: ");
     scanf("%d", &numberUser);

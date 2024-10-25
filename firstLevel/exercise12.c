@@ -1,7 +1,8 @@
 //12. Leer dos números enteros de dos dígitos y determinar si tienen dígitos comunes.
 
 #include <stdio.h>
-int main() {
+int main(){
+	printf("Welcome to the program that determines if two numbers of two digits have common digits\n");
 	int number1, number2, first1, first2, second1, second2;
     printf("Enter a two-digit integer: ");
     scanf("%d", &number1);

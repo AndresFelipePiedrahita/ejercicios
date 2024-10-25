@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <math.h>  // Include math.h for sqrt function
 
-int main() {
+int main(){
+	printf("Welcome to the program that determines if a digit of a number of two digits is a multiple of the other\n");
     int number, first, second;
     printf("Enter a two-digit integer: ");
     scanf("%d", &number);
